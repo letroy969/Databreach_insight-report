@@ -101,7 +101,6 @@ data-breach-insights/
 
 ## 🔗 Data Sources
 
-- [Kaggle Data Breaches Dataset](https://www.kaggle.com/datasets/arindam235/cyber-security-breaches-data)
 - [Privacy Rights Clearinghouse](https://privacyrights.org/data-breaches)
 - [Have I Been Pwned API](https://haveibeenpwned.com/API/v3) (optional enrichment)
 
@@ -130,14 +129,3 @@ This is a demonstration project. For questions or suggestions, please open an is
 - **4 distinct breach patterns** identified through clustering
 - **28% insider threat** discovery rate
 - **Professional deliverables** ready for presentation
-
-### Ready for
-- ✅ **Job Interviews**: Complete demo script and talking points
-- ✅ **Portfolio**: Professional documentation and code
-- ✅ **LinkedIn**: Ready-to-post content and metrics
-- ✅ **Resume**: Quantified achievements and skills
-- ✅ **Technical Reviews**: Clean, documented, tested code
-
----
-
-**Built for recruiters and hiring managers** - All components are designed to be easily runnable and demonstrate professional data analysis skills.
