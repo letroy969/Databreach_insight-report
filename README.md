@@ -1,42 +1,44 @@
-Data Breach Insights Report
-Overview
+# Data Breach Insights Report
+
+## Overview:
+
+
 This repository contains a practical data analysis project focused on understanding data breach incidents across industries, regions, and time. The work demonstrates applied data analysis skills using Excel, Power BI, SQL, and Python, with an emphasis on producing insights that are relevant to cybersecurity teams and decision-makers.
 
 The project covers the full workflow: data preparation, analysis, visualization, and reporting.
 
-Objectives
-Analyze historical data breach incidents to identify trends and patterns
+------------------------------------------------------------------------------------------------------------
 
-Compare breach frequency by year, geography, and industry
+## Objectives:
 
-Demonstrate structured data analysis using common enterprise tools
+•Analyze historical data breach incidents to identify trends and patterns
+•Compare breach frequency by year, geography, and industry
+•Demonstrate structured data analysis using common enterprise tools
+•Produce outputs suitable for both technical review and executive reporting
 
-Produce outputs suitable for both technical review and executive reporting
+------------------------------------------------------------------------------------------------------------
 
-Tools and Technologies
-Excel – data cleaning, pivot tables, charts, and exploratory analysis
+## Tools and Technologies:
 
-Power BI – interactive dashboards and executive-level reporting
+•Excel – data cleaning, pivot tables, charts, and exploratory analysis
+•Power BI – interactive dashboards and executive-level reporting
+•SQL (SQLite / PostgreSQL) – structured querying and aggregation
+•Python – data processing, automation, and validation
+•Jupyter Notebooks – exploratory and advanced analysis
 
-SQL (SQLite / PostgreSQL) – structured querying and aggregation
+------------------------------------------------------------------------------------------------------------
 
-Python – data processing, automation, and validation
+## How to Use the Project
 
-Jupyter Notebooks – exploratory and advanced analysis
-
-How to Use the Project
-1. Excel Analysis
+### 1. Excel Analysis
 Open the workbook located in the excel/ directory.
 
-Key worksheets:
+### Key worksheets:
 
-RAW – original imported data
-
-CLEAN – processed data with derived fields
-
-PIVOT_BreachesByYear – interactive pivot tables
-
-CHARTS – visual summaries with slicers
+•RAW – original imported data
+•CLEAN – processed data with derived fields
+•PIVOT_BreachesByYear – interactive pivot tables
+•CHARTS – visual summaries with slicers
 
 This workbook is designed to allow quick filtering and trend exploration.
 
