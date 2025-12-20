@@ -42,53 +42,51 @@ Open the workbook located in the excel/ directory.
 
 This workbook is designed to allow quick filtering and trend exploration.
 
-2. Power BI Dashboard
+### 2. Power BI Dashboard
 Open the Power BI file in the powerbi/ directory.
 
 Dashboard pages include:
 
-Overview – KPIs and high-level trends
+•Overview – KPIs and high-level trends
+•Geography – breach distribution by location
+•Industry – industry-level comparisons
 
-Geography – breach distribution by location
-
-Industry – industry-level comparisons
-
-Executive Summary – presentation-ready insights
-
-3. Data Pipeline (Optional)
+### 3. Data Pipeline (Optional)
 If you want to regenerate or inspect the data pipeline:
 
 bash
+
 Copy code
+
 pip install -r requirements.txt
 python scripts/produce_sample_csv.py
 python scripts/ingest_csv_to_postgres.py --db sqlite://./data.db
 python scripts/test_project.py
-4. SQL Analysis
+
+### 4. SQL Analysis
 Run analytical queries using the scripts provided:
 
-bash
-Copy code
+### bash
+### Copy code
+
 python scripts/test_queries.py
 These queries support the findings shown in Excel and Power BI.
 
-Key Deliverables
-Cleaned and structured breach dataset
+## Key Deliverables
 
-Interactive Excel analysis with pivot tables and charts
+•Cleaned and structured breach dataset
+•Interactive Excel analysis with pivot tables and charts
+•Multi-page Power BI dashboard with executive summary
+•SQL schema and reusable queries
+•Python scripts for data ingestion and validation
+•Supporting documentation and reports
 
-Multi-page Power BI dashboard with executive summary
+## Repository Structure
+### graphql
+### Copy code
 
-SQL schema and reusable queries
-
-Python scripts for data ingestion and validation
-
-Supporting documentation and reports
-
-Repository Structure
-graphql
-Copy code
 data-breach-insights/
+
 ├── data/        # Datasets and data documentation
 ├── sql/         # Database schema and queries
 ├── excel/       # Excel analysis workbook
@@ -97,14 +95,16 @@ data-breach-insights/
 ├── scripts/     # Python automation and tests
 ├── docs/        # Architecture and reporting documents
 └── README.md
-Architecture Summary
+
+
+### Architecture Summary
 Data flows through a simple, reproducible pipeline:
 
 CSV Data → Database → SQL Queries → Excel / Power BI → Reports
 
 Python is used to automate ingestion and validation, while Excel and Power BI are used for analysis and presentation.
 
-Results Summary
+## Results Summary
 500 breach records analyzed across multiple dimensions
 
 Clear year-over-year breach trends identified
@@ -115,7 +115,7 @@ Clustering techniques used to group breach types
 
 Findings presented in both technical and executive-friendly formats
 
-License
+## License
 This project is released under the MIT License. See the LICENSE file for details.
 
 Notes
